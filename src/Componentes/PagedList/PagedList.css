@@ -1,0 +1,36 @@
+.carousel-item .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Alinha as caixas horizontalmente ao centro */
+    align-items: center; /* Alinha as caixas verticalmente ao centro */
+    height: 100%; /* Garante que o contêiner tenha altura suficiente */
+    gap: 15px; /* Espaçamento entre as caixas */
+}
+
+.carousel-item .col-4 {
+    flex: 1 0 30%;
+    max-width: 30%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    text-align: center; /* Centraliza o conteúdo de texto */
+    background-color: #fff; /* Certifica-se de que a caixa seja branca */
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center; /* Centraliza as caixas horizontalmente */
+    align-items: center; /* Centraliza as caixas verticalmente */
+    height: 100%; /* Garante que as caixas fiquem no centro vertical */
+}
+
+.carousel-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    padding: 20px 0;
+    height: 100%; /* Garante que o carrossel ocupe a altura total */
+}
